@@ -1,0 +1,10 @@
+HTML <select> Tag
+<select> tagý, açýlýr listeyi oluþturmak için kullanýlýr.
+<select> tagýnýn içindeki <option> etiketleri listedeki kullanýlabilir seçenekleri tanýmlar.
+Not: <select> tagý bir form kontrolüdür ve kullanýcý girdisini toplamak 
+için bir formda kullanýlabilir.
+Özellikler
+disabled : Bir açýlýr listenin devre dýþý býrakýlmasý gerektiðini belirtir.
+multiple : Ayný anda birden fazla seçeneðin seçilebileceðini belirtir.
+name : Aþaðý açýlan liste için bir ad tanýmlar.
+size : Aþaðý açýlýr listedeki görünür seçeneklerin sayýsýný tanýmlar.

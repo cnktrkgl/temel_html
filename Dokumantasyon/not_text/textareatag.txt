@@ -1,0 +1,9 @@
+HTML <textarea> Tag
+<textarea> tagý, çok satýrlý bir metin giriþ kontrolünü tanýmlar.
+Bir metin alaný sýnýrsýz sayýda karakter tutabilir ve metin sabit 
+geniþlikte bir fontta (genellikle Courier) iþler.
+Bir metin alanýnýn boyutu, sütunlar ve satýr özellikleriyle belirlenebilir 
+veya daha da iyi olabilir; CSS 'yükseklik ve geniþlik özellikleri.
+Özellikler
+cols : Metin alanýnýn görünür geniþliðini belirtir
+rows : Metin alanýndaki görünür satýr sayýsýný belirtir.

@@ -1,0 +1,66 @@
+HTML <input> Tag
+<input> tag, kullanýcýnýn veri girebileceði bir giriþ alaný belirtir.
+<input> öðeleri, kullanýcýlarýn veri girmelerini saðlayan giriþ denetimlerini 
+bildirmek için bir <form> öðesinde kullanýlýr.
+Bir giriþ alaný, tür özelliðine baðlý olarak birçok þekilde deðiþebilir.
+
+HTML <input> type Attribute
+
+button : 
+<Ýnput type = "button"> týklanabilir bir düðmeyi tanýmlar 
+(çoðunlukla bir betiði etkinleþtirmek için bir JavaScript ile kullanýlýr).
+
+checkbox :
+<Ýnput type = "checkbox"> bir onay kutusu tanýmlar.
+Onay kutusu, etkinleþtirildiðinde iþaretlenmiþ (checked) kare kutu olarak gösterilir.
+Onay kutularý, kullanýcýnýn sýnýrlý sayýda seçenek arasýndan bir veya daha fazla 
+seçenek seçmesine izin vermek için kullanýlýr.
+
+file :
+<Ýnput type = "file"> dosya seçme alanýný ve 
+dosya yüklemeleri için "Gözat" düðmesini tanýmlar.
+Birden fazla dosyanýn seçilmesine izin veren bir dosya 
+seçme alaný tanýmlamak için "çoklu" özelliðini ekleyin.
+
+hidden :
+<Ýnput type = "hidden"> gizli bir giriþ alanýný tanýmlar.
+Gizli bir alan, web geliþtiricilerin, bir form gönderildiðinde kullanýcýlar 
+tarafýndan görülemeyen veya deðiþtirilemeyen verileri içermesini saðlar.
+Gizli bir alan, genellikle form gönderildiðinde güncellenmesi 
+gereken veritabaný kaydýný saklar.
+Not: Deðer, kullanýcýnýn içeriðinde sayfanýn içeriðinde gösterilmese de, 
+herhangi bir tarayýcýnýn geliþtirici araçlarý veya 
+"Kaynaðý Görüntüle" iþlevselliði kullanýlarak görünür (ve düzenlenebilir). 
+Gizli girdileri bir güvenlik biçimi olarak kullanmayýn!
+
+image :
+<Ýnput type = "image"> bir resmi bir gönder düðmesi olarak tanýmlar.
+Resmin yolu src niteliðinde belirtilir.
+
+password :
+<Ýnput type = "password"> bir þifre alaný tanýmlar (karakterler maskelenir).
+Not: Parola gibi hassas bilgileri içeren tüm formlar HTTPS üzerinden sunulmalýdýr.
+
+radio :
+<Ýnput type = "radio"> bir radyo düðmesini tanýmlar.
+Seçili gelmesini istersek checked kullanýlýr.
+Radyo düðmeleri normalde gruplar halinde sunulur 
+(bir dizi ilgili seçeneði tanýmlayan radyo düðmeleri koleksiyonu). 
+Bir grupta yalnýzca bir radyo düðmesi ayný anda seçilebilir.
+
+reset :
+<Ýnput type = "reset">, tüm form deðerlerini baþlangýç deðerlerine 
+sýfýrlayan bir sýfýrlama düðmesi tanýmlar.
+
+submit :
+<Ýnput type = "submit">, tüm form deðerlerini bir form 
+iþleyicisine gönderen bir gönder düðmesini tanýmlar.
+Form iþleyicisi, genellikle giriþ verilerini iþlemek için 
+bir komut dosyasý içeren bir sunucu sayfasýdýr.
+Form iþleyici, formun eylem özelliðinde belirtilir.
+
+text :
+The <input type="text"> defines a single-line text field.
+The default width of the text field is 20 characters.
+
+

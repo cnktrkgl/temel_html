@@ -1,0 +1,12 @@
+HTML <option> Tag
+<option> tagý, seçim listesindeki bir seçeneði tanýmlar.
+<option> öðeleri bir <select> veya <datalist> öðesinin içine gider.
+Not: <option> tagý, herhangi bir nitelik olmadan kullanýlabilir, 
+ancak genellikle sunucuya ne gönderildiðini gösteren deðer niteliðine ihtiyacýnýz vardýr.
+Ýpucu: Uzun bir seçenek listeniz varsa, ilgili seçenekleri 
+<optgroup> tagýyla gruplandýrabilirsiniz.
+Özellikler
+disabled : Bir seçeneðin devre dýþý býrakýlmasý gerektiðini belirtir
+label : Bir seçenek için daha kýsa bir etiket belirtir
+selected : Sayfa yüklendiðinde bir seçeneðin önceden seçilmesi gerektiðini belirtir
+value : Bir sunucuya gönderilecek deðeri belirtir

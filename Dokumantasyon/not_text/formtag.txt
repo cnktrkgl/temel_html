@@ -1,0 +1,31 @@
+HTML <form> Tag
+<form> tagi, kullanýcý giriþi için bir HTML formu oluþturmak için kullanýlýr.
+
+HTML <form> action Attribute
+Form gönderildiðinde form verilerinin nereye gönderileceðini belirtir
+
+HTML <form> method Attribute
+Form verilerini gönderirken kullanýlacak HTTP yöntemini belirtir.
+Form verileri URL deðiþkenleri (method = "get" ile) veya 
+HTTP iþlem sonrasý (method = "post" ile) gönderilebilir.
+GET ile ilgili notlar:
+Ad / deðer çiftlerinde URL'ye form verileri ekler
+Bir URL'nin uzunluðu sýnýrlýdýr (yaklaþýk 3000 karakter)
+Hassas verileri göndermek için asla GET'i kullanmayýn! (URL’de görünür olacak)
+Bir kullanýcýnýn sonucu yer imlerine eklemek istediði form gönderimleri için kullanýþlýdýr
+GET, Google’daki sorgu dizeleri gibi güvenli olmayan veriler için daha iyidir
+POST ile ilgili notlar:
+HTTP isteðinin gövdesine form verileri ekler (veriler URL’de gösterilmez)
+Boyut sýnýrlamasý yoktur
+POST ile form gönderimleri yer imlerine eklenemiyor
+
+HTML <form> enctype Attribute
+Form verilerinin sunucuya gönderilirken nasýl kodlanmasý gerektiðini belirtir.
+Deðer özellikleri
+application/x-www-form-urlencoded :
+Varsayýlan tüm karakterler gönderilmeden önce kodlanýr
+(boþluklar "+" sembollerine ve özel karakterler ASCII HEX deðerlerine dönüþtürülür)
+multipart/form-data :
+Hiçbir karakter kodlanmadý. Dosya yükleme denetimi olan formlarý kullanýrken bu deðer gereklidir.
+text/plain :
+Boþluklar "+" sembollerine dönüþtürülür, ancak özel karakter kodlanmaz
