@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title>
+			Benim Sayfam 5
+		</title>
+	</head>
+	<body>
+		<!-- Tablolar -->
+		<!--
+		<table>
+			<tr>
+				Satır
+			</tr>
+			<tr>
+				<td>hücre yani sütun</td>  
+			</tr>
+		</table>
+		-->
+		<table border="1">
+			<tr>
+				<td>Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<!-- Tablolar colspan -->
+		<table border="1">
+			<tr>
+				<td colspan="2">Hücre1</td> <!-- satır boyu verilen hücre sayısı kadar kaplar --><!-- colspan yazmasakta colspan 1 dir -->
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<!-- Tablolar rowspan -->
+		<table border="1">
+			<tr>
+				<td rowspan="2">Hücre1</td> <!-- sütun boyu verilen hücre sayısı kadar kaplar --><!-- rowspan yazmasakta rowspan 1 dir -->
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<!-- Tablolar Genişlik Yükseklik ve Arkaplanrengi -->
+		<table border="1" width="20%" height="20%"> <!-- tablo 10% den başlayıp bir artarak veya 100 den başlayıp 10 artarak boyutlandırılır  -->
+			<tr>
+				<td>Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<table border="1">
+			<tr height="40"> <!-- 30 dan başlayıp bir artarak boyutlandırılır --><!-- width yazılmaz tr tagı içinde -->
+				<td>Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<table border="1">
+			<tr>
+				<td width="100" height="100">Hücre1</td> <!-- 40 dan bailayıp 10 artarak boyutlandırılır -->
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<table border="1" bgcolor="black">
+			<tr bgcolor="white">
+				<td bgcolor="gray">Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<!-- cellpadding ve cellspacing --><!-- cellpadding hücre içinde oranlı genişleme --><!-- cellspacing hücre ve çizgi arasında oranlı genişleme -->
+		<table border="1" cellpadding="10"><!-- 1 den başlayıp bir artarak boyutlandırılır -->
+			<tr>
+				<td>Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<table border="1" cellspacing="10"><!-- 1 den başlayıp bir artarak boyutlandırılır -->
+			<tr>
+				<td>Hücre1</td>
+				<td>Hücre2</td>
+			</tr>
+			<tr>
+				<td>Hücre3</td>
+				<td>Hücre4</td>
+			</tr>
+		</table><br>
+		<!-- Hizalama -->
+		<table border="1" width="350">
+			<tr>
+				<td align="right">Hücre1</td>
+				<td align="left">Hücre2</td>
+			</tr>
+			<tr>
+				<td align="middle">Hücre3</td>
+				<td>Hücre4</td><!-- birşey yazılmasada left dir -->
+			</tr>
+		</table><br>
+		<table border="1" height="350">
+			<tr>
+				<td valign="top">Hücre1</td>
+				<td valign="middle">Hücre2</td>
+			</tr>
+			<tr>
+				<td valign="bottom">Hücre3</td>
+				<td>Hücre4</td><!-- birşey yazılmasada middle dir -->
+			</tr>
+		</table><br>
+	</body>
+</html>
