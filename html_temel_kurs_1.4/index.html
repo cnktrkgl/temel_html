@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ekranı</title>
+</head>
+
+<body>
+    <form action="onay.html" method="get" target="_blank">
+        <table>
+            <tr>
+                <td>Adınız</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Şifreniz</td>
+                <td>:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Cinsiyetiniz</td>
+                <td>:</td>
+                <td><input type="radio" name="c" value="1" checked="on">Bay<input type="radio" name="c" value="0">Bayan
+                </td>
+            </tr>
+            <tr>
+                <td>Bildiğiniz Diller</td>
+                <td>:</td>
+                <td><input type="checkbox" name="lang1" checked="on">İngilizce<input type="checkbox"
+                        name="lang2">Almanca<input type="checkbox" name="lang3">Fransızca<input type="checkbox"
+                        name="lang4">İspanyolca</td>
+            </tr>
+            <tr>
+                <td>Yaşadığınız il</td>
+                <td>:</td>
+                <td><select name="city">
+                        <option>İstanbul</option>
+                        <option>İzmir</option>
+                        <option>Ankara</option>
+                        <option>Bursa</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Açık Adres</td>
+                <td>:</td>
+            </tr>
+            <tr>
+                <td colspan="3"><textarea name="adress" rows="8" cols="40"></textarea></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td><input type="submit" value="Gönder"><input type="reset" value="Temizle"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
