@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elementleri</title>
+</head>
+
+<body>
+    <form method="get" action="form1ek.html" target="_blank">
+        <table>
+            <tr>
+                <td>Adınız</td>
+                <td>:</td>
+                <td><input type="text" id="ad"></td>
+            </tr>
+            <tr>
+                <td>Soyadınız</td>
+                <td>:</td>
+                <td><input type="text" id="soyad"></td>
+            </tr>
+            <tr>
+                <td>Şehir</td>
+                <td>:</td>
+                <td>
+                    <select name="il">
+                        <option>Bursa</option>
+                        <option>Ankara</option>
+                        <option>İstanbul</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Şifre</td>
+                <td>:</td>
+                <td><input type="password" id="psw"></td>
+            </tr>
+            <tr>
+                <td>Dersler</td>
+                <td>:</td>
+                <td><input type="checkbox" name="d1" checked="on">Sql<input type="checkbox" name="d1">Html</td>
+            </tr>
+            <tr>
+                <td>Cinsiyet</td>
+                <td>:</td>
+                <td><input type="radio" name="c" value="0" checked="on">Kadın<input type="radio" name="c"
+                        value="1">Erkek</td>
+            </tr>
+            <tr>
+                <td>Yorumunuz</td>
+                <td>:</td>
+                <td><textarea name="yrm" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="reset" value="Temizle"></td>
+                <td><input type="submit" value="Kaydet" id="btn"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
