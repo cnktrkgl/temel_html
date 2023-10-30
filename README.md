@@ -1,2 +1,2 @@
-# temel_html
-##### Temel HTML çalışmaları
+# Temel HTML
+Temel HTML çalışmaları
